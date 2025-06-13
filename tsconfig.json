@@ -11,9 +11,7 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "target": "ES2017",
-    "outDir": "dist",
     "declaration": true,
-    "declarationDir": "dist/types",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true

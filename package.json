@@ -8,11 +8,12 @@
       "types": "./src/components/input/input.d.ts"
     }
   },
-  "version": "1.0.8",
+  "version": "1.0.11",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc",
+    "bnp": "npm run build && npm publish --access public",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
@@ -34,5 +35,13 @@
   },
   "dependencies": {
     "lit": "^3.3.0"
-  }
+  },
+  "keywords": [
+    "design-system",
+    "spectrum",
+    "web components",
+    "web-components",
+    "lit-element",
+    "lit-html"
+  ]
 }
