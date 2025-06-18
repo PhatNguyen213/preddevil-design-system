@@ -8,10 +8,12 @@
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
+    // "experimentalDecorators": true,
+    // "useDefineForClassFields": false,
     "forceConsistentCasingInFileNames": true,
     "target": "ES2017",
     "declaration": true,
+    // "emitDeclarationOnly": true,
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true

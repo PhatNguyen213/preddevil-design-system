@@ -1,7 +1,13 @@
 import { LitElement } from "lit";
-export declare class MyInput extends LitElement {
-    value: string;
+declare const TwLitElement: typeof LitElement;
+export declare class MyInput extends TwLitElement {
+    accessor value: string;
     render(): import("lit-html").TemplateResult<1>;
+}
+declare global {
+    interface HTMLElementTagNameMap {
+        "my-input": MyInput;
+    }
 }
 declare module "react" {
     namespace JSX {
@@ -14,3 +20,12 @@ interface PersonInfoProps extends React.DetailedHTMLProps<React.HTMLAttributes<H
     value: string;
 }
 export {};
+
+
+declare module "react" {
+    namespace JSX {
+        interface IntrinsicElements {
+            "my-input": PersonInfoProps;
+        }
+    }
+}

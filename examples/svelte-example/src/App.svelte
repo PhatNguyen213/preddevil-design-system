@@ -3,6 +3,8 @@
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
   import "preddevil-design-system";
+import '@spectrum-web-components/accordion/sp-accordion.js';
+import '@spectrum-web-components/accordion/sp-accordion-item.js';
 </script>
 
 <main>

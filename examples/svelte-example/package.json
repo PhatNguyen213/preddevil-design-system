@@ -18,6 +18,7 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
-    "preddevil-design-system": "^1.0.5"
+    "@spectrum-web-components/accordion": "^1.7.0",
+    "preddevil-design-system": "^1.0.18"
   }
 }

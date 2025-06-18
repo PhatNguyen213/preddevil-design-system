@@ -1,18 +1,22 @@
 {
   "name": "preddevil-design-system",
-  "main": "./src/components/input/input.js",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/my-input.umd.cjs",
+  "module": "./dist/my-input.js",
   "types": "./src/components/input/input.d.ts",
   "exports": {
     ".": {
-      "import": "./src/components/input/input.js",
-      "types": "./src/components/input/input.d.ts"
+      "import": "./dist/my-input.js",
+      "require": "./dist/my-input.umd.cjs"
     }
   },
-  "version": "1.0.11",
+  "version": "1.0.29",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc",
+    "build": "tsc && vite build",
     "bnp": "npm run build && npm publish --access public",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
@@ -31,10 +35,13 @@
     "typescript": "~5.8.3",
     "vite": "^6.3.5",
     "vite-plugin-dts": "^4.5.4",
+    "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^3.2.3"
   },
   "dependencies": {
-    "lit": "^3.3.0"
+    "@tailwindcss/vite": "^4.1.10",
+    "lit": "^3.3.0",
+    "tailwindcss": "^4.1.10"
   },
   "keywords": [
     "design-system",

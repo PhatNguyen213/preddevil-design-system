@@ -12,7 +12,7 @@
   "dependencies": {
     "@spectrum-web-components/accordion": "^1.6.0",
     "lit": "^3.3.0",
-    "preddevil-design-system": "^1.0.11",
+    "preddevil-design-system": "^1.0.30",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

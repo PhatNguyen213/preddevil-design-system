@@ -2,6 +2,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import "preddevil-design-system";
+import "@spectrum-web-components/accordion/sp-accordion.js";
+import "@spectrum-web-components/accordion/sp-accordion-item.js";
 
 function App() {
   return (
